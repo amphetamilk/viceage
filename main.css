@@ -1,0 +1,210 @@
+@font-face {
+  font-family: 'Frutiger';
+  src: url('Frutiger.ttf') format('truetype');
+}
+
+a {
+color:rgb(242, 240, 233);
+text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+label {
+color:#595959;
+position:relative;
+left:8px;
+top:3px;
+}
+
+input[type=text] {
+    padding:4px; 
+    border:2px solid #ddd; 
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font-family:Frutiger;
+	font-size:12pt;
+}
+
+select{
+	padding:4px; 
+    border:2px solid #ddd; 
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font-family:Frutiger;
+	font-size:12pt;
+}
+
+textarea {
+	padding:8px; 
+    border:2px solid #ddd; 
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font-family:Frutiger;
+	font-size:12pt;
+}
+
+textarea:focus {
+	border-color:#2D2D2D;
+}
+
+input[type=text]:focus {
+    border-color:#2D2D2D;
+}
+
+input[type=submit] {
+    padding:9px 18px; 
+    background:#eee;
+/* For browsers that do not support gradients */
+background: -webkit-linear-gradient(#eee, #ccc);
+/* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(#eee, #ccc);
+/* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(#eee, #ccc);
+/* For Firefox 3.6 to 15 */
+background: linear-gradient(#eee, #ccc);
+/* Standard syntax */ 
+    border:2px solid #ccc;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    font-family:Frutiger;
+	font-size:12pt;
+}
+
+.body {
+margin:0px;
+min-height:1700px;
+background:#1E1E1E;
+}
+
+.bar {
+position:fixed;
+top:0;
+right:0;
+left:0;
+width:100%;
+float:none;
+margin-left:auto;
+margin-right:auto;
+background: #2D2D2D;
+/* For browsers that do not support gradients */
+background: -webkit-linear-gradient(-90deg, #1A1A1A, #2D2D2D, #2D2D2D, #1A1A1A);
+/* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(-90deg, #1A1A1A, #2D2D2D, #2D2D2D, #1A1A1A);
+/* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(-90deg, #1A1A1A, #2D2D2D, #2D2D2D, #1A1A1A);
+/* For Firefox 3.6 to 15 */
+background: linear-gradient(-90deg, #1A1A1A, #2D2D2D, #2D2D2D, #1A1A1A);
+/* Standard syntax */
+}
+
+.barButton {
+font-family:Frutiger;
+font-size:12pt;
+text-align: center; 
+}
+
+.box {
+position:relative;
+width:365px;
+display:inline-block;
+background-color:#F2F0E9;
+box-shadow:0px 2px 5px #000000;
+margin-right:10px;
+margin-bottom:15px;
+margin-left:auto;
+color:#000000;
+font-family:Frutiger;
+font-size:12pt;
+}
+
+.boxT {
+height:auto;
+position:relative;
+min-width:100px;
+max-width:800px;
+float:none;
+margin-left:auto;
+margin-right:auto;
+display:block;
+color:#F2F0E9;
+font-family:Frutiger;
+font-size:12pt;
+}
+
+
+.Button {
+padding:9px 18px;
+cursor:pointer;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+font-family:Frutiger;
+font-size:12pt;
+margin-left:13px;
+margin-bottom:10px;
+}
+
+.ButtonNA {
+padding:9px 18px;
+cursor:default;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+font-family:Frutiger;
+font-size:12pt;
+margin-left:13px;
+margin-bottom:10px;
+}
+
+.title {
+color:#F2F0E9;
+min-width:200px;
+max-width:800px;
+position:relative;
+float:none;
+margin-left:auto;
+margin-right:auto;
+display:block;
+font-family:Frutiger;
+font-size:18pt;
+}
+
+.icon {
+height:105px;
+width:105px;
+margin:20px;
+display:inline-block;
+}
+
+.description{
+position:relative;
+display:inline-block;
+height:100px;
+width:200px;
+margin-bottom:10px;
+margin-left:auto;
+color:#000000;
+font-family:Frutiger;
+font-size:12pt;
+top:-21px;
+}
+
+.iBox{
+width:200px;
+height:130px;
+position:absolute;
+top:150px;
+left:150px;
+}
+
+.iframe{
+color:rgb(0,0,0);
+text-decoration:underline;
+}
+
+.marginer{
+margin-left:20px;
+margin-right:20px;
+}
